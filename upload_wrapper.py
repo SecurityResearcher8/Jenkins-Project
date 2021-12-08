@@ -9,7 +9,11 @@ Authorization = sys.argv[4]
 
 url = 'http://127.0.0.1:8000/api/v1/upload'
 
-path = os.environ['JENKINS_HOME']+'/jobs/'+'Build'+'/lastStable/'+'archive/'+'app/'+file
+path = os.environ['JENKINS_HOME']+'/jobs/'+'Build'+'/lastStable/'+'workspace/'+'app/'+file
+
+# /Users/NowSecure/.jenkins/workspace/Test
+
+# FileNotFoundError: [Errno 2] No such file or directory: '/Users/NowSecure/.jenkins/jobs/Build/lastStable/archive/app/diva-beta.apk'
 
 # /var/lib/jenkins/jobs/Build/lastStable/archive/app$ 
 
