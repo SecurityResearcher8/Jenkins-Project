@@ -9,7 +9,7 @@ Authorization = sys.argv[4]
 
 url = 'http://127.0.0.1:8000/api/v1/upload'
 
-path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']/+file
+path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']+file
 
 # /Users/NowSecure/.jenkins/workspace/Test
 
