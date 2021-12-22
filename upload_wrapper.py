@@ -7,7 +7,7 @@ import requests
 file = sys.argv[2]
 Authorization = sys.argv[4]
 
-url = 'http://127.0.0.1:8000/api/v1/upload'
+url = 'http://0.0.0.0:8000/api/v1/upload'
 
 # url = 'http://0.0.0.0:8000/api/v1/upload'
 
