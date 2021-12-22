@@ -8,7 +8,9 @@ opt3 = sys.argv[3]
 token = sys.argv[4]
 
 
-url = 'https://appsecure.accenture.com/api/executive_report/'
+#url = 'https://appsecure.accenture.com/api/executive_report/'
+
+url = 'http://api/v1/download_pdf/'
 
 #print apk_file
 
