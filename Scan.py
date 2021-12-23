@@ -8,7 +8,7 @@ scan_type = sys.argv[4]
 file_name = sys.argv[6]
 
 
-url = 'http://localhost:8000/api/v1/scan'
+url = 'http://127.0.0.1:9005/api/v1/scan'
 
 #print apk_file
 
