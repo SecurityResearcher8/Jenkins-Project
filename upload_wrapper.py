@@ -24,7 +24,7 @@ url = 'http://127.0.0.1:8001/api/v1/upload'
 
 #/var/lib/jenkins/workspace/Dynamic Analysis
 
-path = os.environ['JENKINS_HOME']+/workspace/+os.environ['JOB_NAME']/+file
+path = os.environ['JENKINS_HOME']'+'/workspace/'+os.environ['JOB_NAME']/'+'file
 
 print(file)
 
