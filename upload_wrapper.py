@@ -30,7 +30,7 @@ print(path)
 
 print(file)
 
-files = {'file': (file,open(path,'rb'), "multipart/form-data")}
+#files = {'file': (file,open(path,'rb'), "multipart/form-data")}
 
 files = {'file': (file,open(path,'rb'), "multipart/form-data")}
 
@@ -38,6 +38,6 @@ headers = { "Authorization" : Authorization }
 
 response = requests.post(url,files=files,headers=headers)
 
-print(response.json())
+# print(response.json())
 
 #python wrapper.py -n App_Name.apk -Authorization <API_KEY>
