@@ -11,7 +11,7 @@ url = 'http://127.0.0.1:8001/api/v1/upload'
 
 # url = 'http://0.0.0.0:8000/api/v1/upload'
 
-# path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']+'/'+file
+path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']+'/'+file
 
 # /Users/NowSecure/.jenkins/workspace/Test
 
@@ -24,7 +24,7 @@ url = 'http://127.0.0.1:8001/api/v1/upload'
 
 #/var/lib/jenkins/workspace/Dynamic Analysis
 
-path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']/+file
+#path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']/+file
 
 print(file)
 
