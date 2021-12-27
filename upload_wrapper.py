@@ -13,6 +13,8 @@ url = 'http://127.0.0.1:8000/api/v1/upload'
 
 path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']+'/'+file
 
+print(path)
+
 # /Users/NowSecure/.jenkins/workspace/Test
 
 # FileNotFoundError: [Errno 2] No such file or directory: '/Users/NowSecure/.jenkins/jobs/Build/lastStable/workspace/app/diva-beta.apk'
