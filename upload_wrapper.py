@@ -23,7 +23,6 @@ url = 'http://127.0.0.1:8001/api/v1/upload'
 
 path = os.environ['JENKINS_HOME']+'/jobs/'+'/workspace/'+os.environ['JOB_NAME']/+file
 
-
 print(file)
 
 files = {'file': (file,open(path,'rb'), "multipart/form-data")}
