@@ -4,8 +4,8 @@ import sys
 import os
 import requests
 
-file = sys.argv[1]
-Authorization = sys.argv[2]
+file = sys.argv[2]
+Authorization = sys.argv[4]
 
 url = 'http://127.0.0.1:8002/api/v1/upload'
 
