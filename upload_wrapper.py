@@ -42,4 +42,6 @@ print(file)
 
 print(response.json())
 
-#python wrapper.py -n App_Name.apk -Authorization <API_KEY>
+#curl -F 'file=@/home/asha/Desktop/diva-beta.apk' http://localhost:8002/api/v1/upload -H "Authorization:89080b7094fad62ea187f3fc09883183cccbeb87100ce24f5eb5797492b95c08"
+
+#python wrapper.py -file App_Name.apk -Authorization <API_KEY>
