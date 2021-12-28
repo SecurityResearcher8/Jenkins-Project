@@ -4,7 +4,7 @@ import requests
 
 Authorization = sys.argv[1]
 hash = sys.argv[2]
-url = 'http://127.0.0.1:8002/api/v1/report_json'
+url = 'http://127.0.0.1:8004/api/v1/report_json'
 
 #print apk_file
 
