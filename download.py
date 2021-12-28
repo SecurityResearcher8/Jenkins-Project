@@ -10,7 +10,7 @@ token = sys.argv[4]
 
 #url = 'https://appsecure.accenture.com/api/executive_report/'
 
-url = 'http://api/v1/download_pdf/'
+url = 'http://127.0.0.1:8004/api/v1/download_pdf/'
 
 #print apk_file
 
