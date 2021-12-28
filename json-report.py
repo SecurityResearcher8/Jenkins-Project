@@ -18,9 +18,9 @@ data = {
 	'hash' : hash,
            }
 		
-H = { "Authorization" : Authorization }
+headers = { "Authorization" : Authorization }
 
-response = requests.post(url,data=data,H=H)
+response = requests.post(url,data=data,headers=headers)
 
 print(response.json())
 
