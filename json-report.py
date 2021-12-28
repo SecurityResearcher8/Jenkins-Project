@@ -19,7 +19,6 @@ url = 'http://127.0.0.1:8000/api/v1/report_json'
 
 data = {
 	'hash' : hash,
-	'scan_type' : scan_type,
            }
 		
 headers = { "Authorization" : Authorization }
