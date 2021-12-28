@@ -4,10 +4,10 @@ import sys
 import os
 import requests
 
-file = sys.argv[2]
-Authorization = sys.argv[4]
+file = sys.argv[1]
+Authorization = sys.argv[2]
 
-url = 'http://127.0.0.1:8000/api/v1/upload'
+url = 'http://127.0.0.1:8002/api/v1/upload'
 
 # url = 'http://0.0.0.0:8000/api/v1/upload'
 
@@ -38,6 +38,8 @@ headers = { "Authorization" : Authorization }
 
 response = requests.post(url,files=files,headers=headers)
 
-# print(response.json())
+print(file)
+
+print(response.json())
 
 #python wrapper.py -n App_Name.apk -Authorization <API_KEY>
