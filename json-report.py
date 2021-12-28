@@ -14,9 +14,7 @@ url = 'http://127.0.0.1:8000/api/v1/report_json'
 
 #files = {'file': open(path,'rb')}
 
-data = {
-	'hash' : hash,
-           }
+data = {"hash" : hash }
 		
 headers = { "Authorization" : Authorization }
 
