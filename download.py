@@ -20,7 +20,9 @@ headers = { "Authorization" : Authorization }
 
 response = requests.post(url,data=data,headers=headers)
 
-print(response.json())
+open("/home/asha/Desktop/DevSecOps-Reports/Developer-Report-file", "wb").write(response.content)
+
+#print(response.json())
 
 # curl -X POST --url http://localhost:8000/api/v1/download_pdf --data "hash=82ab8b2193b3cfb1c737e3a786be363a" -H "Authorization:89080b7094fad62ea187f3fc09883183cccbeb87100ce24f5eb5797492b95c08"
     
