@@ -4,7 +4,6 @@ import requests
 
 Authorization = sys.argv[6]
 hash = sys.argv[2]
-scan_type = sys.argv[4]
 
 
 url = 'http://127.0.0.1:8000/api/v1/report_json'
