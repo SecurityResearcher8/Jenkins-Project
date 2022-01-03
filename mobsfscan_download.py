@@ -21,7 +21,7 @@ scanner.scan()
 #files = {'file': open(path,'rb')}
 
 #values = {
-		  'Uid' : appID,
+#		  'Uid' : appID,
 #           }
 		
 #authtoken = "JWT "+str(token)
