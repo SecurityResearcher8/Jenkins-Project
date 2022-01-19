@@ -1,10 +1,13 @@
-#from mobsfscan.mobsfscan import MobSFScan
-#src = 'tests/assets/src/java/java_vuln.java'
-#scanner = MobSFScan([src], json=True)
-#scanner.scan()
+from mobsfscan.mobsfscan import MobSFScan
 
-pip install mobsfscan
-mobsfscan app
+path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']+'/'+
+print(path)
+src = 'path'
+scanner = MobSFScan([src], json=True)
+scanner.scan()
+
+#pip install mobsfscan
+#mobsfscan app
 
 #opt2 = sys.argv[1]
 #appID = sys.argv[2]
