@@ -1,3 +1,6 @@
+import sys
+import os
+import requests
 from mobsfscan.mobsfscan import MobSFScan
 
 path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']
