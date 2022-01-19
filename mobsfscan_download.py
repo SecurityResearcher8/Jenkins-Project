@@ -5,8 +5,7 @@ from mobsfscan.mobsfscan import MobSFScan
 
 path = os.environ['JENKINS_HOME']+'/workspace/'+os.environ['JOB_NAME']
 print(path)
-src = 'path'
-scanner = MobSFScan([src], json=True)
+scanner = MobSFScan([path], json=True)
 scanner.scan()
 
 #pip install mobsfscan
